@@ -19,7 +19,7 @@ export default function LoginScreen() {
          source={require("../assets/logo-red.png")}/>
         
         <AppForm
-            initialValues={{email: "", password: ""}}
+            initialValues={{email: "gay", password: ""}}
             onSubmit={values => console.log(values)}
             validationSchema={validationSchema}
         >
